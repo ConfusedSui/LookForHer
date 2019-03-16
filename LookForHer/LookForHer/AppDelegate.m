@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TabRootViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,9 +18,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self initRootController];//初始化根控制器
+    
     return YES;
 }
 
+
+- (void)initRootController{
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window makeKeyAndVisible];
+    // 显示状态栏
+    [UIApplication sharedApplication].statusBarHidden = NO;
+    [UIApplication sharedApplication].keyWindow.rootViewController = [[TabRootViewController alloc] init];
+    
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -15,6 +15,13 @@
 		B206ED50223D70F6006D1F92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B206ED4F223D70F6006D1F92 /* main.m */; };
 		B206ED5A223D70F6006D1F92 /* LookForHerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B206ED59223D70F6006D1F92 /* LookForHerTests.m */; };
 		B206ED65223D70F6006D1F92 /* LookForHerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B206ED64223D70F6006D1F92 /* LookForHerUITests.m */; };
+		B2F2D6FC223D8632002AE9B9 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2D6FB223D8632002AE9B9 /* BaseViewController.m */; };
+		B2F2D701223D8A05002AE9B9 /* TabRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2D700223D8A05002AE9B9 /* TabRootViewController.m */; };
+		B2F2D719223D8CA7002AE9B9 /* LHPersonCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2D718223D8CA7002AE9B9 /* LHPersonCenterVC.m */; };
+		B2F2D71C223D8CCB002AE9B9 /* LHMessageListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2D71B223D8CCB002AE9B9 /* LHMessageListVC.m */; };
+		B2F2D71F223D8CE2002AE9B9 /* LHActivityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2D71E223D8CE2002AE9B9 /* LHActivityVC.m */; };
+		B2F2D722223D8CF9002AE9B9 /* LHRankVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2D721223D8CF9002AE9B9 /* LHRankVC.m */; };
+		B2F2D725223D8D0C002AE9B9 /* LHHomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2D724223D8D0C002AE9B9 /* LHHomePageVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,21 @@
 		B206ED60223D70F6006D1F92 /* LookForHerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookForHerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B206ED64223D70F6006D1F92 /* LookForHerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookForHerUITests.m; sourceTree = "<group>"; };
 		B206ED66223D70F6006D1F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F2D6FA223D8632002AE9B9 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		B2F2D6FB223D8632002AE9B9 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		B2F2D6FE223D886F002AE9B9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B2F2D6FF223D8A05002AE9B9 /* TabRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabRootViewController.h; sourceTree = "<group>"; };
+		B2F2D700223D8A05002AE9B9 /* TabRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabRootViewController.m; sourceTree = "<group>"; };
+		B2F2D717223D8CA7002AE9B9 /* LHPersonCenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHPersonCenterVC.h; sourceTree = "<group>"; };
+		B2F2D718223D8CA7002AE9B9 /* LHPersonCenterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHPersonCenterVC.m; sourceTree = "<group>"; };
+		B2F2D71A223D8CCB002AE9B9 /* LHMessageListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHMessageListVC.h; sourceTree = "<group>"; };
+		B2F2D71B223D8CCB002AE9B9 /* LHMessageListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHMessageListVC.m; sourceTree = "<group>"; };
+		B2F2D71D223D8CE2002AE9B9 /* LHActivityVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHActivityVC.h; sourceTree = "<group>"; };
+		B2F2D71E223D8CE2002AE9B9 /* LHActivityVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHActivityVC.m; sourceTree = "<group>"; };
+		B2F2D720223D8CF9002AE9B9 /* LHRankVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHRankVC.h; sourceTree = "<group>"; };
+		B2F2D721223D8CF9002AE9B9 /* LHRankVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHRankVC.m; sourceTree = "<group>"; };
+		B2F2D723223D8D0C002AE9B9 /* LHHomePageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHHomePageVC.h; sourceTree = "<group>"; };
+		B2F2D724223D8D0C002AE9B9 /* LHHomePageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHHomePageVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +123,17 @@
 		B206ED3F223D70F4006D1F92 /* LookForHer */ = {
 			isa = PBXGroup;
 			children = (
+				B2F2D6F5223D8533002AE9B9 /* Person */,
+				B2F2D6F4223D852A002AE9B9 /* Message */,
+				B2F2D6F3223D851D002AE9B9 /* Activity */,
+				B2F2D6F2223D850C002AE9B9 /* Rank */,
+				B2F2D6F0223D849F002AE9B9 /* HomePage */,
+				B2F2D6EF223D8440002AE9B9 /* NavAndTab */,
 				B206ED40223D70F4006D1F92 /* AppDelegate.h */,
 				B206ED41223D70F4006D1F92 /* AppDelegate.m */,
 				B206ED43223D70F4006D1F92 /* ViewController.h */,
 				B206ED44223D70F4006D1F92 /* ViewController.m */,
+				B2F2D6FE223D886F002AE9B9 /* PrefixHeader.pch */,
 				B206ED46223D70F4006D1F92 /* Main.storyboard */,
 				B206ED49223D70F6006D1F92 /* Assets.xcassets */,
 				B206ED4B223D70F6006D1F92 /* LaunchScreen.storyboard */,
@@ -130,6 +159,102 @@
 				B206ED66223D70F6006D1F92 /* Info.plist */,
 			);
 			path = LookForHerUITests;
+			sourceTree = "<group>";
+		};
+		B2F2D6EF223D8440002AE9B9 /* NavAndTab */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2D6FA223D8632002AE9B9 /* BaseViewController.h */,
+				B2F2D6FB223D8632002AE9B9 /* BaseViewController.m */,
+				B2F2D6FF223D8A05002AE9B9 /* TabRootViewController.h */,
+				B2F2D700223D8A05002AE9B9 /* TabRootViewController.m */,
+			);
+			path = NavAndTab;
+			sourceTree = "<group>";
+		};
+		B2F2D6F0223D849F002AE9B9 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2D6F1223D849F002AE9B9 /* ViewController */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		B2F2D6F1223D849F002AE9B9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2D723223D8D0C002AE9B9 /* LHHomePageVC.h */,
+				B2F2D724223D8D0C002AE9B9 /* LHHomePageVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B2F2D6F2223D850C002AE9B9 /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2D6F9223D85AD002AE9B9 /* ViewController */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		B2F2D6F3223D851D002AE9B9 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2D6F6223D855B002AE9B9 /* ViewController */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		B2F2D6F4223D852A002AE9B9 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2D6F7223D8570002AE9B9 /* ViewController */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		B2F2D6F5223D8533002AE9B9 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2D6F8223D8599002AE9B9 /* ViewController */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		B2F2D6F6223D855B002AE9B9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2D71D223D8CE2002AE9B9 /* LHActivityVC.h */,
+				B2F2D71E223D8CE2002AE9B9 /* LHActivityVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B2F2D6F7223D8570002AE9B9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2D71A223D8CCB002AE9B9 /* LHMessageListVC.h */,
+				B2F2D71B223D8CCB002AE9B9 /* LHMessageListVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B2F2D6F8223D8599002AE9B9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2D717223D8CA7002AE9B9 /* LHPersonCenterVC.h */,
+				B2F2D718223D8CA7002AE9B9 /* LHPersonCenterVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B2F2D6F9223D85AD002AE9B9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2D720223D8CF9002AE9B9 /* LHRankVC.h */,
+				B2F2D721223D8CF9002AE9B9 /* LHRankVC.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +388,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B206ED45223D70F4006D1F92 /* ViewController.m in Sources */,
+				B2F2D6FC223D8632002AE9B9 /* BaseViewController.m in Sources */,
+				B2F2D725223D8D0C002AE9B9 /* LHHomePageVC.m in Sources */,
 				B206ED50223D70F6006D1F92 /* main.m in Sources */,
+				B2F2D71F223D8CE2002AE9B9 /* LHActivityVC.m in Sources */,
+				B2F2D71C223D8CCB002AE9B9 /* LHMessageListVC.m in Sources */,
+				B2F2D722223D8CF9002AE9B9 /* LHRankVC.m in Sources */,
+				B2F2D701223D8A05002AE9B9 /* TabRootViewController.m in Sources */,
+				B2F2D719223D8CA7002AE9B9 /* LHPersonCenterVC.m in Sources */,
 				B206ED42223D70F4006D1F92 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +568,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/yuli/LookForHer/LookForHer/LookForHer/PrefixHeader.pch;
 				INFOPLIST_FILE = LookForHer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +586,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/yuli/LookForHer/LookForHer/LookForHer/PrefixHeader.pch;
 				INFOPLIST_FILE = LookForHer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
