@@ -22,11 +22,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+     self.view.backgroundColor = [UIColor whiteColor];
     [self addVC];
 }
 
 -(void)addVC{
-    self.view.backgroundColor = [UIColor whiteColor];
     
     //首页
     LHHomePageVC *homePage = [[LHHomePageVC alloc] init];
@@ -55,9 +55,7 @@
     [nav3.tabBarItem setTitlePositionAdjustment:UIOffsetMake(0, -4)];
     [nav3.tabBarItem setImageInsets:UIEdgeInsetsMake(-3, 0, 3, 0)];
     
-    
     //消息
-    
     LHMessageListVC *vc4 = [[LHMessageListVC alloc] init];
     UINavigationController *nav4 = [[UINavigationController alloc] initWithRootViewController:vc4];
     nav4.tabBarItem.title = @"资讯";
@@ -66,11 +64,9 @@
     [nav4.tabBarItem setTitlePositionAdjustment:UIOffsetMake(0, -4)];
     [nav4.tabBarItem setImageInsets:UIEdgeInsetsMake(-3, 0, 3, 0)];
     
-    
     //我的
     LHPersonCenterVC *vc5 = [[LHPersonCenterVC alloc] init];
     UINavigationController *nav5 = [[UINavigationController alloc] initWithRootViewController:vc5];
-    
     nav5.tabBarItem.title = @"我的";
     nav5.tabBarItem.selectedImage = [[UIImage imageNamed:@"me-L"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     nav5.tabBarItem.image = [UIImage imageNamed:@"me-H"];
